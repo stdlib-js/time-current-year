@@ -18,25 +18,96 @@ limitations under the License.
 
 -->
 
+
+<details>
+  <summary>
+    About stdlib...
+  </summary>
+  <p>We believe in a future in which the web is a preferred environment for numerical computation. To help realize this future, we've built stdlib. stdlib is a standard library, with an emphasis on numerical and scientific computation, written in JavaScript (and C) for execution in browsers and in Node.js.</p>
+  <p>The library is fully decomposable, being architected in such a way that you can swap out and mix and match APIs and functionality to cater to your exact preferences and use cases.</p>
+  <p>When you use stdlib, you can be absolutely certain that you are using the most thorough, rigorous, well-written, studied, documented, tested, measured, and high-quality code out there.</p>
+  <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
+</details>
+
 # currentYear
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Current year.
 
+<section class="installation">
 
+## Installation
 
+```bash
+npm install @stdlib/time-current-year
+```
 
+Alternatively,
 
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+-   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
 
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
 
+</section>
 
+<section class="usage">
 
+## Usage
 
+```javascript
+var currentYear = require( '@stdlib/time-current-year' );
+```
+
+#### currentYear()
+
+Returns the current year.
+
+```javascript
+var year = currentYear();
+// returns <number>
+```
+
+</section>
+
+<!-- /.usage -->
+
+<section class="notes">
+
+## Notes
+
+-   The returned value is an integer.
+-   The year is based on the local time zone.
+
+</section>
+
+<!-- /.notes -->
+
+<section class="examples">
+
+## Examples
+
+<!-- eslint no-undef: "error" -->
+
+```javascript
+var currentYear = require( '@stdlib/time-current-year' );
+
+var year = currentYear();
+// returns <number>
+```
+
+</section>
+
+<!-- /.examples -->
+
+* * *
 
 <section class="cli">
 
-
+## CLI
 
 <section class="installation">
 
@@ -54,7 +125,7 @@ npm install -g @stdlib/time-current-year-cli
 
 <section class="usage">
 
-## Usage
+### Usage
 
 ```text
 Usage: current-year [options]
@@ -77,7 +148,7 @@ Options:
 
 <section class="examples">
 
-## Examples
+### Examples
 
 ```bash
 $ current-year
@@ -96,11 +167,6 @@ $ current-year
 
 <section class="related">
 
-## See Also
-
--   <span class="package-name">[`@stdlib/time-current-year`][@stdlib/time-current-year]</span><span class="delimiter">: </span><span class="description">current year.</span>
-
-
 </section>
 
 <!-- /.related -->
@@ -118,7 +184,7 @@ This package is part of [stdlib][stdlib], a standard library for JavaScript and 
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
-### Community
+#### Community
 
 [![Chat][chat-image]][chat-url]
 
@@ -141,11 +207,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/time-current-year-cli.svg
-[npm-url]: https://npmjs.org/package/@stdlib/time-current-year-cli
+[npm-image]: http://img.shields.io/npm/v/@stdlib/time-current-year.svg
+[npm-url]: https://npmjs.org/package/@stdlib/time-current-year
 
-[test-image]: https://github.com/stdlib-js/time-current-year/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/time-current-year/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/time-current-year/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/time-current-year/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/time-current-year/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/time-current-year?branch=main
