@@ -169,6 +169,12 @@ $ current-year
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/assert-is-current-year`][@stdlib/assert/is-current-year]</span><span class="delimiter">: </span><span class="description">test if a value is the current year.</span>
+
 </section>
 
 <!-- /.related -->
@@ -248,6 +254,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/time-current-year/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/time-current-year/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-current-year]: https://github.com/stdlib-js/assert-is-current-year
+
+<!-- </related-links> -->
 
 </section>
 
