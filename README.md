@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import currentYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-current-year@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/time-current-year/tags). For example,
+
+```javascript
 import currentYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-current-year@v0.2.2-esm/index.mjs';
 ```
 
@@ -81,7 +86,7 @@ var year = currentYear();
 <body>
 <script type="module">
 
-import currentYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-current-year@v0.2.2-esm/index.mjs';
+import currentYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-current-year@esm/index.mjs';
 
 var year = currentYear();
 // returns <number>
