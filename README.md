@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import currentYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-current-year@deno/mod.js';
+import currentYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-current-year@v0.2.3-deno/mod.js';
 ```
 
 #### currentYear()
@@ -76,7 +76,7 @@ var year = currentYear();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import currentYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-current-year@deno/mod.js';
+import currentYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-current-year@v0.2.3-deno/mod.js';
 
 var year = currentYear();
 // returns <number>
