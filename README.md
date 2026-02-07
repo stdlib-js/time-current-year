@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import currentYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-current-year@esm/index.mjs';
+import currentYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-current-year@v0.2.3-esm/index.mjs';
 ```
 
 #### currentYear()
@@ -81,7 +81,7 @@ var year = currentYear();
 <body>
 <script type="module">
 
-import currentYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-current-year@esm/index.mjs';
+import currentYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-current-year@v0.2.3-esm/index.mjs';
 
 var year = currentYear();
 // returns <number>
